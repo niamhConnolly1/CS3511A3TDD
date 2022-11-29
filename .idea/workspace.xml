@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e54b0f-a4aa-4fb3-b4e4-51f109abbf84" name="Changes" comment="removed the setters as they are not necessary in this project">
+    <list default="true" id="93e54b0f-a4aa-4fb3-b4e4-51f109abbf84" name="Changes" comment="added test method to check the length of RGB value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/colour/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/colour/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/colour/Colours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/colour/Colours.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669747595995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added test method to check the length of RGB value">
+      <created>1669748726081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669748726081</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="added a test method to see if the red green blue values were equal to the RGB value &#10;added a test method to see if 2 colours are equal" />
     <MESSAGE value="simplified assertions by changing assertTrue to assertSame" />
     <MESSAGE value="removed the setters as they are not necessary in this project" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed the setters as they are not necessary in this project" />
+    <MESSAGE value="added test method to check the length of RGB value" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test method to check the length of RGB value" />
   </component>
 </project>
