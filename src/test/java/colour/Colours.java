@@ -38,4 +38,8 @@ public class Colours {
     public float getBlue() {
         return blue;
     }
+
+    public String getRGB() {
+        return redGreenBlue;
+    }
 }
