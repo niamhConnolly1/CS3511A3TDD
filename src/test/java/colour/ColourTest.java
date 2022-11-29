@@ -41,4 +41,10 @@ public class ColourTest {
         Assertions.assertEquals(goldColour1.getBlue(), goldColour2.getBlue());
         Assertions.assertSame(goldColour1.getRGB(), goldColour2.getRGB());
     }
+
+    @Test
+    void testLengthOfRGB() {
+        Colours lightGreenColour = new Colours(0.56F, 0.94F, 0.56F, "100100001110111010010000");
+        Assertions.assertEquals(24, lightGreenColour.getRGB().length());
+    }
 }
