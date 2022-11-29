@@ -2,13 +2,11 @@ package colour;
 
 /**
  *Colours is a java program.
- * ------
  * It contains the variables:
- * red which is the type float, and it represents the percentage of red in a colour,
+ * red which is a float type, and it represents the percentage of red in a colour,
  * green which is also a float type, and it represents the percentage of green in a colour,
  * blue which is a float type too, and it represents the percentage of blue in a colour, and
  * redGreenBlue is a string type, and it represents the binary value for red, green and blue combined.
- *-------
  *This class contains getters for red, green, blue and redGreenBlue.
  */
 public class Colours {
