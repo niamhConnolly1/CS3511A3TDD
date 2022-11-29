@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e54b0f-a4aa-4fb3-b4e4-51f109abbf84" name="Changes" comment="updated javadoc in Colours.java">
+    <list default="true" id="93e54b0f-a4aa-4fb3-b4e4-51f109abbf84" name="Changes" comment="added javadocs to ColourTest.java">
       <change beforePath="$PROJECT_DIR$/src/test/java/colour/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/colour/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669750593556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added javadocs to ColourTest.java">
+      <created>1669752643935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669752643935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added javadocs to ColourTest.java">
+      <created>1669753124496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669753124496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +227,7 @@
     <MESSAGE value="added test method to check the length of RGB value" />
     <MESSAGE value="added javadoc comments to Colours.java" />
     <MESSAGE value="updated javadoc in Colours.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated javadoc in Colours.java" />
+    <MESSAGE value="added javadocs to ColourTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added javadocs to ColourTest.java" />
   </component>
 </project>

@@ -4,9 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * ColoursTest is a java program.
- * This a test class for Colours.java.
- * -----
+ * ColourTest is a java program.
+ * This is a test class for Colours.java.
  * It contains 6 test methods.
  * These test methods check the range of the red, green and blue values
  * and check they are between 0.0 and 1.0.
@@ -20,7 +19,6 @@ public class ColourTest {
     /**
      * This test method checks the range of the red value
      * and makes sure it's between 0.0 and 1.0.
-     * --
      * redColour is a new Colours object created to represent the colour red.
      */
     @Test
@@ -32,7 +30,6 @@ public class ColourTest {
     /**
      * This test method checks the range of the green value
      * and makes sure it's between 0.0 and 1.0.
-     * --
      * greenColour is a new Colours object created to represent the colour green.
      */
     @Test
@@ -44,7 +41,6 @@ public class ColourTest {
     /**
      * This test method checks the range of the blue value
      * and makes sure it's between 0.0 and 1.0.
-     * --
      * blueColour is a new Colours object created to represent the colour blue.
      */
     @Test
@@ -54,13 +50,11 @@ public class ColourTest {
     }
 
     /**
-     * This test method checks the if the red, green and blue values colour
+     * This test method checks if the red, green and blue values colour
      * corresponds with the redGreenBlue colour.
-     * ---
      * pinkColour is a new Colours object created to represent the colour pink.
-     * ---
      * It checks the red percentage, green percentage and blue percentage,
-     * and it checks the 24bit binary number represented by a string.
+     * and it checks the 24bit binary number given as a string to represent the redGreenBlue value.
      */
     @Test
     void testColourEqualsRGB() {
@@ -73,9 +67,7 @@ public class ColourTest {
 
     /**
      * This test method checks if 2 colours are the same.
-     * ---
      * 2 goldColour objects were created to represent the colour gold.
-     * ---
      * It checks if both reds are equal, if both greens are equal,
      * if both blues are equal and if both redGreenBlue values are the same.
      */
@@ -91,10 +83,9 @@ public class ColourTest {
 
     /**
      * This test method checks if the length of the redGreenBlue value is correct.
-     * It must be 24 bits because bits 16-23 represent the red value,
+     * It must be 24 in length because bits 16-23 represent the red value,
      * bits 8-15 represent the green value,
      * and bits 0-7 represent the blue value.
-     * ---
      * lightGreenColour is a new Colours object created to represent the colour light green.
      */
     @Test
