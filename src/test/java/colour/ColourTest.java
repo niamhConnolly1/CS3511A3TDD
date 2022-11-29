@@ -32,7 +32,7 @@ public class ColourTest {
         Assertions.assertEquals(1.0F, pinkColour.getRed());
         Assertions.assertEquals(0.75F, pinkColour.getGreen());
         Assertions.assertEquals(0.79F, pinkColour.getBlue());
-        Assertions.assertTrue("11111111110000011001011" == pinkColour.getRGB());
+        Assertions.assertSame("11111111110000011001011", pinkColour.getRGB());
     }
 
     @Test
@@ -42,6 +42,6 @@ public class ColourTest {
         Assertions.assertEquals(goldColour1.getRed(), goldColour2.getRed());
         Assertions.assertEquals(goldColour1.getGreen(), goldColour2.getGreen());
         Assertions.assertEquals(goldColour1.getBlue(), goldColour2.getBlue());
-        Assertions.assertTrue(goldColour1.getRGB() == goldColour2.getRGB());
+        Assertions.assertSame(goldColour1.getRGB(), goldColour2.getRGB());
     }
 }
