@@ -15,24 +15,12 @@ public class Colours {
     }
 
 
-    public void setRed(float redValue) {
-        red = redValue;
-    }
-
     public float getRed() {
         return red;
     }
 
-    public void setGreen(float greenValue) {
-        green = greenValue;
-    }
-
     public float getGreen() {
         return green;
-    }
-
-    public void setBlue(float blueValue) {
-        blue = blueValue;
     }
 
     public float getBlue() {
