@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e54b0f-a4aa-4fb3-b4e4-51f109abbf84" name="Changes" comment="added javadocs to ColourTest.java">
-      <change beforePath="$PROJECT_DIR$/src/test/java/colour/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/colour/ColourTest.java" afterDir="false" />
+    <list default="true" id="93e54b0f-a4aa-4fb3-b4e4-51f109abbf84" name="Changes" comment="updated the javadocs for Colours.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669753124496</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated javadocs to ColourTest.java">
+      <created>1669753571868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669753571868</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated the javadocs for Colours.java">
+      <created>1669753769919</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669753769919</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +242,8 @@
     <MESSAGE value="added javadoc comments to Colours.java" />
     <MESSAGE value="updated javadoc in Colours.java" />
     <MESSAGE value="added javadocs to ColourTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added javadocs to ColourTest.java" />
+    <MESSAGE value="updated javadocs to ColourTest.java" />
+    <MESSAGE value="updated the javadocs for Colours.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the javadocs for Colours.java" />
   </component>
 </project>
